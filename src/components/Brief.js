@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import { NavLink, useParams } from 'react-router-dom'
 
-const API=`http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API}`;
+const API=`https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API}`;
 
 export default function Brief() {
   const {id} = useParams();
